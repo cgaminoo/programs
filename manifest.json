@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3, 
+    "name": "TheRock", 
+    "version": "1.0",
+    "description": "This is an extension that turns all images on web browser to one from the celebrity The Rock",
+    "author": "Crystal Gamino",
+    "content_scripts": [
+        {
+        "matches": ["<all_urls>"],
+        "js": ["script.js"]
+        }
+    ]
+}
